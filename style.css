@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(205, 228, 237);
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(45, 44, 44);
+    padding: 15px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+carousel-item img{
+    height: 210px;
+}
+.container-fluid{
+    background-color: gray;
+}
+.container-fluid a{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+.btn{
+    color: white;
+    border: 2px solid white;
+    font-weight: 400;
+}
+.about{
+    background-color: gray;
+    padding: 100px 20px;
+    color: white;
+}
+.about h1{
+    text-align: center;
+    font-weight: 700;
+}
+.about p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25pxe;
+}
+.meet{
+    background-color: gray;
+    margin-top: 30px;
+    color: white;
+    padding: 100px 20px;
+}
+.meet h1{
+    text-align: center;   
+}
+.meet p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+.cards{
+  display: flex;
+  gap: 60px;
+}
+.background{
+
+  background: white;
+  width: 240px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background img{
+  height: 280px;
+  width: 180px;
+  
+}
+.services{
+  margin-top: 70px;
+}
+.services h1{
+  text-align: center;
+}
+.services p{
+  font-size: 20px;
+  text-align: center;
+}
